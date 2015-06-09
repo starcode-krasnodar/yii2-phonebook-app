@@ -23,7 +23,7 @@ class ContactController extends Controller
                 'rules' => [
                     [
                         'allow'   => true,
-                        'actions' => ['create', 'update'],
+                        'actions' => ['create', 'update', 'delete'],
                         'roles'   => ['admin']
                     ],
                     // allow authenticated users
